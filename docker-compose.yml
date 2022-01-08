@@ -1,0 +1,13 @@
+version: "3.1"
+
+services:
+  app:
+    container_name: falabella-dev
+    image: falabella-dev
+    build:
+      context: .
+      target: golang-dev
+    volumes:
+      - .:/app
+    ports:
+      - 4000:4000
