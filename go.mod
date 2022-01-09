@@ -1,4 +1,4 @@
-module falabella
+module test-falabella
 
 go 1.17
 
